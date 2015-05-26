@@ -11,6 +11,7 @@
 #
 #  * Alexis GRIMALDI (https://github.com/agrimaldi)
 #  * spacewander (https://github.com/spacewander)
+#  * Guillaume Seren (https://github.com/GuillaumeSeren)
 #
 # ------------------------------------------------------------------------------
 # Inspirations
