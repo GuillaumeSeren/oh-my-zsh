@@ -289,11 +289,13 @@ _git-undo(){
 }
 
 zstyle ':completion:*:*:git:*' user-commands \
-    alias:'define, search and show aliases' \
-    archive-file:'export the current HEAD of the git repository to a archive' \
+    alias:'Define, search and show aliases.' \
+    archive-file:'Creates an zip archive of the current git repository.' \
+    authors:'Populates the file matching authors|contributors -i with the authors of commits, according to the number of commits per author.' \
     back:'undo and stage latest commits' \
     bug:'create a bug branch' \
     changelog:'populate changelog file with commits since the previous tag' \
+    chore:'Create the given chore branch.' \
     commits-since:'list commits since a given date' \
     contrib:'display author contributions' \
     count:'count commits' \
@@ -302,6 +304,7 @@ zstyle ':completion:*:*:git:*' user-commands \
     delete-merged-brancees:'delete merged branches'\
     delete-submodule:'delete submodule' \
     delete-tag:'delete local and remote tag' \
+    delta:'Lists files that differ from another branch.' \
     effort:'display effort statistics' \
     extras:'git-extras' \
     feature:'create a feature branch' \
@@ -309,12 +312,17 @@ zstyle ':completion:*:*:git:*' user-commands \
     fresh-branch:'create empty local branch' \
     gh-pages:'create the GitHub Pages branch' \
     graft:'merge commits from source branch to destination branch' \
+    guilt:'Calculate the change in blame between two revisions.' \
     ignore:'add patterns to .gitignore' \
     info:'show info about the repository' \
+    line-summary:'WARNING: git line-summary has been replaced by git summary --line and will be removed in a future release. ' \
     local-commits:'list unpushed commits on the local branch' \
     lock:'lock a file excluded from version control' \
     locked:'ls files that have been locked' \
     missing:'show commits missing from another branch' \
+    merge-into:'Merge src branch into dest, and keep yourself on current branch.' \
+    merge-repo:'Merges two repository histories.' \
+    obliterate:'Completely remove a file from the repository, including past commits and tags' \
     pr:'checks out a pull request locally' \
     rebase-patch:'rebases a patch' \
     refactor:'create a refactor branch' \
@@ -324,6 +332,7 @@ zstyle ':completion:*:*:git:*' user-commands \
     reset-file:'reset one file' \
     root:'show path of root' \
     setup:'setup a git repository' \
+    scp:'A convenient way to copy files from the current working tree to the working directory of a remote repository.' \
     show-tree:'show branch tree of commit history' \
     squash:'merge commits from source branch into the current one as a single commit' \
     summary:'repository summary' \
